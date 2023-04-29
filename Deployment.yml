@@ -17,6 +17,7 @@ spec:
     containers:
     - name: contactbackendcontainer
       image: prasaddamala/contact_backend_app
+      imagePullPolicy: Always
       ports:
       - containerPort: 8080
 ---
